@@ -175,3 +175,39 @@ header {
 	margin-left: 50px;
  }
 
+.main-body {
+	background: rgba(89, 116, 135, 0.1);
+	margin-top: 100rem;
+}
+
+.main-body img {
+	width: 80%;
+}
+
+.main-body-text h3 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 56px;
+	text-transform: uppercase;
+	color: #CF585E;
+}
+
+.main-body-text h2 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 56px;
+	color: #0C3050;
+}
+
+.main-body-text p {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: #597487;
+}
+.main-body-bg {
+	background-image: url(./img/BG1.png);
+}
