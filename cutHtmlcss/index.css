@@ -11,7 +11,7 @@ li, a, button {
 	color: #0C3050;
 	text-decoration: none;
 }
-
+/* nav */
 header {
 	display: flex;
 	justify-content: space-between;
@@ -45,6 +45,8 @@ header {
 	cursor: pointer;
 	margin-top: -20px;
 }
+
+/* background and banner */
 .banner {
 	width: 100%;
 	height: 500px;
@@ -66,7 +68,7 @@ header {
 	top: 50%;
 }
 .card-text {
-	margin-left: 250px;
+	margin:20px 250px;
 }
 
 .card-text h3 {
@@ -74,10 +76,8 @@ header {
 	font-weight: bold;
 	font-size: 24px;
 	line-height: 56px;
-	/* identical to box height, or 233% */
 	text-transform: uppercase;
 	color: #0C3050;
-	/* margin-left: 250px; */
 	margin-top: -300px;
 }
 
@@ -86,8 +86,92 @@ header {
 	font-weight: bold;
 	font-size: 30px;
 	line-height: 56px;
-	/* identical to box height, or 117% */
 	color: #0C3050;
-
 }
+
+.card-btn {
+	position: absolute;
+	width: 153px;
+	height: 38px;
+	background: rgba(255, 255, 255, 0.1);
+	border: 2px solid #0C3050;
+	box-sizing: border-box;
+	border-radius: 50px;
+}
+
+/* hình lẻ ở dưới background banner  */
+
+.tree {
+	position: relative;
+}
+
+.thong {
+	margin-top: 40rem;
+}
+.tron {
+	margin-top: 42rem;
+}
+
+.bala {
+	margin-top: 37rem;
+}
+
+.thong1 {
+	margin-top: 37rem;
+}
+.tron1 {
+	margin-top: 40rem;
+}
+
+.bala1 {
+	margin-top: 38rem;
+}
+/* header */
+.main-header {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 56px;
+
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #CF585E;
+}
+
+.slogan-main-header {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 56px;
+	/* or 117% */
+	
+	text-align: center;
+	
+	color: #0C3050;
+}
+
+/* image-APEC city */
+.img-city {
+	position: absolute;
+}
+
+.bg-city-img {
+	display: flex;
+	align-items: center;
+}
+.marketing-img, .concept-img, .bo-img, .it-img, .chungkhoan-img, .xaydung-img, .khachsan-img,.kinhdoanh-img,.chuakhaipha-img {
+	margin-top: -95rem;
+}
+ .post-main-header {
+	 position: absolute;
+	 padding: 70px 40px;
+	 width: 100%;
+	 max-width: 300px;
+	 background: #FFFFFF;
+	box-shadow: 0px 4px 25px rgba(55, 7, 0, 0.1);
+	border-radius: 20px;
+	margin-top: 70rem;
+	margin-left: 50px;
+ }
 
