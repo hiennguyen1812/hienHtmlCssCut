@@ -204,10 +204,56 @@ header {
 .main-body-text p {
 	font-style: normal;
 	font-weight: 500;
-	font-size: 16px;
+	font-size: 12px;
 	line-height: 24px;
 	color: #597487;
 }
+.main-body-bg img{
+	width: 100%;
+	margin-top: -40px;
+}
+
+.slide-main-body .slide {
+	border-radius: 50%;
+	border: none;
+	display: inline-block;
+}
+
+.slide {
+	background-color: #EAACAD;
+	width: 30px;
+	height: 30px;
+}
+
+.slide-btn {
+	width: 5px;
+	height: 5px;
+	margin: 13px 12px 12px 10px;
+}
+
 .main-body-bg {
-	background-image: url(./img/BG1.png);
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+
+.main-body-bg h3 {
+	position: absolute;
+	color: #CF585E;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: bold;
+}
+
+.main-body-bg h2 {
+	position: absolute;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 56px;
+	/* identical to box height, or 117% */
+
+	text-align: center;
+	margin-top: 40px;
+	color: #FFFFFF;
 }
