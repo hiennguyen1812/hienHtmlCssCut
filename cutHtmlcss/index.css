@@ -1,23 +1,52 @@
-* {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+.container {
+	position: relative;
+    width: 1920px;
+	height :1080px;
+    color: #0C3050;
+    font-family: 'SVN-Gilroy', sans-serif;
+}
+.cloud1 img{
+    position: absolute;
+    width : 170px;
+    top: 2.63%;
+    left: 36px;
+}
+.cloud2 img{
+    position: absolute;
+    left: 38.28%;
+    width: 120px;
+	right: 55.14%;
+	top: 2.79%;
+}
+.cloud3{
+    position: absolute;
+    width: 150px;
+    left: 62.92%;
+	right: 27.86%;
+	top: 100px;
+}
+.cloud5 img{
+    position: absolute;
+    width: 100px;
+   left: 43.85%;
+	right: 49.21%;
+	top: 315px;
+}
+.cloud4 img{
+    position: absolute;
+    width: 100px;
+	left: 89.11%;
+	right: 4.87%;
+	top: 2.51%;
+	bottom: 96.69%;
 }
 
-
-li, a, button {
-	font-size: 16px;
-	font-weight: 500;
-	color: #0C3050;
-	text-decoration: none;
-}
 /* nav */
-header {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 30px 10%;
-	margin:20px 80px;
+.nav-bar {
+	 display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 21px;
 }
 
 
@@ -28,6 +57,7 @@ header {
 
 .nav-link {
 	list-style: none;
+	color: #0C3050;
 }
 .nav-link li {
 	display: inline-block;
@@ -41,9 +71,10 @@ header {
 	padding: 9px 25px;
 	background-color: #0C3050;
 	border: none;
+	width: 132px;
+	height: 40px;
 	border-radius: 50px;
 	cursor: pointer;
-	margin-top: -20px;
 }
 
 /* background and banner */
@@ -65,10 +96,13 @@ header {
 
 .card .card-text {
 	position: absolute;
-	top: 50%;
+	margin: 0px 250px;
+	margin-top: 50px;
+	/* top: 50%; */
 }
-.card-text {
-	margin:20px 250px;
+
+.card-text-p {
+	font-style: italic;
 }
 
 .card-text h3 {
@@ -78,7 +112,6 @@ header {
 	line-height: 56px;
 	text-transform: uppercase;
 	color: #0C3050;
-	margin-top: -300px;
 }
 
 .card-text h1 {
@@ -97,6 +130,11 @@ header {
 	border: 2px solid #0C3050;
 	box-sizing: border-box;
 	border-radius: 50px;
+}
+
+.card-btn-img {
+	Width : 17px;
+	height :17px;
 }
 
 /* hình lẻ ở dưới background banner  */
@@ -159,9 +197,63 @@ header {
 .bg-city-img {
 	display: flex;
 	align-items: center;
+	margin-top: -80px;
 }
 .marketing-img, .concept-img, .bo-img, .it-img, .chungkhoan-img, .xaydung-img, .khachsan-img,.kinhdoanh-img,.chuakhaipha-img {
 	margin-top: -95rem;
+}
+.APEC-mini-text {
+	position: absolute;
+    top: 1980px;
+    left: 33px;
+    width: 340px;
+    height: 282px;
+    align-items: center;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: #ffff;
+    box-shadow: 0px 4px 25px 0px #3707001A;
+    padding: 32px;
+}
+.building1{
+    position: absolute;
+    top: -174px;
+    left: 78px
+}
+.elipse {
+	position: absolute;
+	top: -21px;
+	left: 310px;
+}
+.line2 {
+	position: absolute;
+	top: -3px;
+	left: 325px;
+}
+.line3 {
+	position: absolute;
+	top: -3px;
+	left: 325px;
+}
+.search_bar_minibox {
+	position: absolute;
+    top: 202px;
+    left: 79px;
+    border: 1px solid #0C3050;
+    border-radius: 50px;
+    display: flex;
+    align-content: center;
+    width: 230px;
+    height: 40px;
+    text-align: center;
+}
+.search_bar_minibox p {
+	margin-top: 5px;
+	margin-left: 30px;
+}
+.search_bar_minibox i {
+	margin-top: 10px;
 }
  .post-main-header {
 	 position: absolute;
@@ -177,7 +269,7 @@ header {
 
 .main-body {
 	background: rgba(89, 116, 135, 0.1);
-	margin-top: 100rem;
+	margin-top: 90rem;
 }
 
 .main-body img {
@@ -227,7 +319,7 @@ header {
 
 .slide-btn {
 	width: 5px;
-	height: 5px;
+	height: 10px;
 	margin: 13px 12px 12px 10px;
 }
 
@@ -252,11 +344,11 @@ header {
 	font-size: 36px;
 	line-height: 56px;
 	/* identical to box height, or 117% */
-
 	text-align: center;
 	margin-top: 40px;
 	color: #FFFFFF;
 }
+
 
 .APEC-garden-group {
 	position: absolute;
@@ -275,7 +367,6 @@ header {
     bottom: 450px;
     position: relative;
        background-color: #fff;
-       background-size: 380px 280px;
     border: 1px solid none;
     border-radius: 10px;
 }
@@ -286,7 +377,7 @@ header {
     bottom: 450px;
     position: relative;
        background-color: #fff;
-       background-size: 380px 280px;
+       /* background-size: 280px 180px; */
     border: 1px solid none;
     border-radius: 10px;
 }
@@ -296,21 +387,32 @@ header {
     bottom: 450px;
     position: relative;
        background-color: #fff;
-       background-size: 380px 280px;
+       /* background-size: 3280px 180px; */
     border: 1px solid none;
     border-radius: 10px;
 }
 
-.APEC-garden-btn {
+
+.APEC-garden-btn button {
 	background-color: #CF585E;
 	border-radius: 50px;
-	outline: auto;
+	color: #fff;
 	position: relative;
-    width: 169px;
+    width: 229px;
     height: 50px;
-    text-align: center;
     bottom: 70px;
     left: 40rem;
+}
+
+.APEC-garden-btn p {
+	margin-top: 10px;
+	margin-left: -10px;
+}
+
+.APEC-garden-btn i {
+	position: absolute;
+	bottom: 17px;
+	left: 140px;
 }
 
 
@@ -401,6 +503,11 @@ header {
     left: 534px;
 }
 
+.send_button img {
+	margin-top: -5px;
+	margin-left: 10px;
+}
+
 .form-input-img {
 	position: relative;
 }
@@ -411,6 +518,9 @@ header {
 .APEC_info_container{
     background-color: #EAACAD;
     margin-top: 50px;
+    display: flex; 
+    align-items: flex-end;  
+    justify-content: center;
 }
 .APEC_info_container_top{
     position: relative;
@@ -418,17 +528,20 @@ header {
     justify-content: space-around;
     color: #0C3050;
     margin-bottom: 0px;
+    flex-direction: row;
+    /* justify-content: center; */
+    margin-left: 40px;
+    margin: 13px 12px 12px 10px;
 }
 .APEC_info_container_bottom{
-    position: relative;
-    width: 1920px;
+    position: absolute;
+    width: 1298px;
     height: 80px;
     background-color: #CF585E;
-    margin-top: 0px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    right: 300px;
+	top: 4468px;
 }
 .bottom_right {
     width: 500px;
@@ -439,7 +552,7 @@ header {
 }
 .subscribe_container{
     display: flex;
-    margin: 0px
+    margin: 0px;
 }
 .subscribe_email{   
     height: 48px;
@@ -448,10 +561,9 @@ header {
     border-bottom-left-radius: 10px;
 }
 .subscribe_button{   
-    height: 54px;
+    height: 48px;
     background-color:#0C3050;
     color: #fff;
-    border: 1px solid none;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
